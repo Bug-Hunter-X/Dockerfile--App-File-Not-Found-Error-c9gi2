@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error where the application file is not found during runtime. The issue stems from an incorrect path specified in the CMD instruction.  The solution involves ensuring the file path in the CMD matches the file's location after the COPY command executes.
